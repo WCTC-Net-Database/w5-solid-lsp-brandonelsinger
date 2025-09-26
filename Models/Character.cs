@@ -8,11 +8,11 @@ public class Character : IEntity
 
     public void Attack(IEntity target)
     {
-        Console.WriteLine($"{Name} attacks {target.Name}");
+        Console.WriteLine($"{Name} attacks {target.Name} with a karate chop!");
     }
 
     public void Move()
     {
-        Console.WriteLine($"{Name} moves forward.");
+        Console.WriteLine($"{Name} moves forward!");
     }
 }
